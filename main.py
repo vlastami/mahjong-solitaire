@@ -7,7 +7,7 @@ FPS = 60
 pygame.init()
 screen = pygame.display.set_mode((750, 650))
 pygame.display.set_caption("Mahjong")
-background_image = pygame.image.load("background.jpg")
+background_image = pygame.image.load("images/background.jpg")
 background_image = pygame.transform.scale(background_image,(750,650))
 
 
